@@ -1,0 +1,23 @@
+function on_back_click()
+	CMessageBox("CMessageBox是個接受一個字串的函式，並顯示提示框。")
+	CMessageBox("你可以使用..連接字串，像是：".."Hello".." World".."\n這有點像PHP")
+	CMessageBox("這個程式裡存在幾個比較重要的全域變數\n"..
+				 first_number.."\n"..
+				 input_number.."\n"..
+				 op)
+	CMessageBox("運算操作和你熟悉的一樣：".."\n"..
+	             (1+1).."\n"..
+				 (5-3).."\n"..
+				 (10/2).."\n"..
+				 (5%3).."\n"..
+				 (9*9))
+	CMessageBox("你可以嘗試添加這些函式改變這個程式的特性".."\n"..
+	            "on_op_click(op)".."\n"..
+				"on_number_click(num)".."\n"..
+				"on_back_click()".."\n"..
+				"on_EQ_click()".."\n"..
+				"on_C_click()".."\n"..
+				"on_AC_click()")
+	CMessageBox("最後提醒你，將檔案儲存，然後把程式重新開啟。")
+end
+
