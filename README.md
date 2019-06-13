@@ -12,7 +12,11 @@ More information please link to [this](http://www.luaj.org/luaj/3.0/README.html)
 And This Reps have included the necessary JAR files
 
 
-# Download Release
+# Download Release(Pre-Built)
+You can download pre-built file at [The Release Page](https://github.com/lagagain/JAVA-calculator/releases/tag/v1.0.0).
+1. Download ZIP file
+2. Uncompress it
+3. [Run it](#Run it)
 
 # Run It
 run `run.bat`(Windows Platform) or `run.sh` (Linux Platform).
